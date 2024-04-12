@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    font-family:sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center; 
+    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Altja_j%C3%B5gi_Lahemaal.jpg/1200px-Altja_j%C3%B5gi_Lahemaal.jpg");
+    background-size: cover;
+    overflow: hidden;
+}
+
+h2{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(99, 211, 187);
+    font-weight: bold; 
+    background-color: rgba(0, 0, 0, 0.192);
+}
+
+.clock{
+    display: flex;
+    }
+
+.clock div{
+    margin: 5px;
+    position:relative;
+}
+
+.clock span{
+    width: 100px;
+    height: 80px;
+    background:slateblue;
+    opacity:0.8;
+    color: rgb(74, 206, 87);
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.clock .text{
+    height: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: darkblue;
+    opacity: 0.9;
+    font-weight: bold; 
+}
+
+.clock #ampm{
+    bottom: 0;
+    position:absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background: rgb(87, 99, 228);
+    font-weight: bold; 
+}
